@@ -1,4 +1,4 @@
-# 📌 Projeto de Automação API – Cypress (Serverest.dev)
+# 🧪 Projeto Técnico – Automação Cypress API
 
 📖 Descrição
 
@@ -6,32 +6,44 @@ Este projeto é parte de um teste técnico. O objetivo é demonstrar capacidade 
 
 A API utilizada é a Serverest.dev.
 
-## 📁 Estrutura do Projeto
+🚀 Tecnologias
 
-cypress/e2e/ – testes organizados por funcionalidade
+Cypress
 
-cypress/support/ – commands customizados e configurações
+Cypress plugin API
 
-cypress/fixtures/ – massas de teste
+Custom Commands
 
-cypress.config.js – config geral
+## 📋 Pré-requisitos
+
+- **Node.js** versão **24.11.1**
+- **npm** (vem junto com o Node.js)
+- **Git Bash** (recomendado no Windows)
 
 ## 🚀 Como executar o projeto
 
-Instale dependências:
+1. **Clonar o repositório**
+   ```bash
+   git clone https://github.com/marcelino-dev/desafio-api-QA.git
+   cd seu-repositorio-cypress
+   ```
+2. **Instalar dependências**
+   ```bash
+   npm install
+   ```
+3. **Abra a interface interativa:**
 
-npm install
+   ```bash
+   npx cypress open
+   ```
 
-Execute os testes no modo CLI:
+   **Ou execute o Cypress em modo Headless**
 
-npx cypress run
+   ```bash
+   npx cypress run"
+   ```
 
----
-
-Ou abra a interface interativa:
-
-npx cypress open
-🧪 Funcionalidades Automatizadas
+## ✅ Cenários Automatizados
 
 Cada módulo possui 2 cenários críticos:
 
