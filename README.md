@@ -55,4 +55,4 @@ Produtos
 
 Carrinhos
 
-Todos os testes acessam a API diretamente usando cy.request.
+Todos os testes acessam a API diretamente usando cy.api (Plugin).
