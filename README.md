@@ -40,7 +40,7 @@ Custom Commands
    **Ou execute o Cypress em modo Headless**
 
    ```bash
-   npx cypress run"
+   npx cypress run
    ```
 
 ## ✅ Cenários Automatizados
